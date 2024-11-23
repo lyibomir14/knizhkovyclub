@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжковий клуб</title>
+    <style>
+        .book-shelf {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            margin-bottom: 30px;
+            overflow-x: auto;
+        }
+
+        .book {
+            text-align: center;
+            margin: 0 10px;
+        }
+
+        .book img {
+            width: 100px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .club-info {
+            text-align: center;
+            font-size: 1.2rem;
+            color: darkgray;
+            width: 70%;
+            margin: 30px auto;
+            padding: 20px;
+            border: 2px solid lightgray;
+            border-radius: 8px;
+            background-color: whitesmoke;
+        }
+
+        .photos-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .photos-section > div {
+            width: 18%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .photos-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .bordered-text {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 2px solid lightgray;
+            border-radius: 8px;
+            background-color: whitesmoke;
+        }
+
+        a {
+            color: royalblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: midnightblue;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 1rem;
+            margin-top: 30px;
+            color: silver;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; background-color: ghostwhite; margin: 0; padding: 20px;">
+
+    <header style="text-align: center; margin-bottom: 20px;">
+        <h1 style="font-size: 2.5rem; color: dimgray;">Книжковий клуб</h1>
+    </header>
+
+    <section class="club-info">
+        <p>Цей книжковий клуб був заснований у 2021 році для тих, хто любить читати пити добру каву! Ми збираємося в кожний перший четвер місяця о 18:00 у залі на вулиці Григорія Граб'янки 13, Львів, і наші учасники насолоджуються жвавими розмовами навколо вибраних групою книг. Поки в нас нема свого приміщення, тому ми їх орендуємо та зберігаємо книги у домашніх бібліотеках</p>
+    </section>
+
+    <section class="photos-section">
+        <div>
+            <img src="photo1.jpg" alt="Фото 1">
+        </div>
+        <div>
+            <img src="photo2.jpg" alt="Фото 2">
+        </div>
+        <div>
+            <img src="photo3.jpg" alt="Фото 3">
+        </div>
+        <div>
+            <img src="photo4.jpg" alt="Фото 4">
+        </div>
+        <div>
+            <img src="photo5.jpg" alt="Фото 5">
+        </div>
+    </section>
+
+    <section style="text-align: center; font-size: 1.2rem; margin-bottom: 30px;">
+        <a href="https://lyibomir14.github.io/Dani" style="color: royalblue; text-decoration: none;">Хочеш стати членом нашого клубу? Клацай сюди та дізнайся!</a>
+
+    </section>
+
+    <section class="bordered-text">
+        <p style="color: darkgray;">Обговорювані книги на наступних зборах (кожне фото веде на посилання змісту): </p>
+    </section>
+
+    <section class="book-shelf">
+        <div class="book">
+            <a href="http://dontsov-nic.com.ua/wp-content/uploads/2016/01/S.Bandera-Perspektyvy-ukrajinskoji-revolyutsiji-1978.pdf">
+                <img src="book1.jpg" alt="Книга 1">
+            </a>
+        </div>
+        <div class="book">
+            <a href="https://litarchive.in.ua/shchodennyk-oleksandr-dovzhenko#1942-рік">
+                <img src="book2.jpg" alt="Книга 2">
+            </a>
+        </div>
+        <div class="book">
+            <a href="https://shron1.chtyvo.org.ua/Petliura_Symon/Moskovska_vosha.pdf">
+                <img src="book3.jpg" alt="Книга 3">
+            </a>
+        </div>
+        <div class="book">
+            <a href="https://shron1.chtyvo.org.ua/Skoropadskyi_Pavlo/Spohady.pdf?">
+                <img src="book4.jpg" alt="Книга 4">
+            </a>
+        </div>
+        <div class="book">
+            <a href="https://shron2.chtyvo.org.ua/Hrushevskyi/Khto_taki_ukraintsi_i_choho_vony_khochut_zb.pdf?">
+                <img src="book5.jpg" alt="Книга 5">
+            </a>
+        </div>
+        <div class="book">
+            <a href="https://docs.google.com/viewer?url=https%3A%2F%2Fshron1.chtyvo.org.ua%2FYanevskyi_Danylo%2FProekt_Ukraina_Hrushevskyi_Skoropadskyi_Petliura.pdf">
+                <img src="book6.jpg" alt="Книга 6">
+            </a>
+        </div>
+        <div class="book">
+            <a href="https://www.ukrlib.com.ua/world/printit.php?tid=2887">
+                <img src="book7.jpg" alt="Книга 7">
+            </a>
+        </div>
+        <div class="book">
+            <a href="https://docs.google.com/viewer?url=https%3A%2F%2Fshron1.chtyvo.org.ua%2FSemeniv_Volodymyr%2FMoskovska_okupatsiia_Halychyny_1914-1917_rr_v_svidchenniakh_suchasnykiv.pdf">
+                <img src="book8.jpg" alt="Книга 8">
+            </a>
+        </div>
+        <div class="book">
+            <a href="http://docs.google.com/viewer?url=https%3A%2F%2Fshron1.chtyvo.org.ua%2FChop_Volodymyr%2FNestor_Makhno_ostannii_selianskyi_heroi.pdf">
+                <img src="book9.jpg" alt="Книга 9">
+            </a>
+        </div>
+    </section>
+
+    <footer style="text-align: center; font-size: 1rem; margin-top: 30px; color: silver;">
+        <p>&copy; 2024 Проект "книжковий клуб". Усі фото взяті з інтернету, права не захищені.</p>
+    </footer>
+
+</body>
+</html>
